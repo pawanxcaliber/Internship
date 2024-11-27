@@ -1,0 +1,20 @@
+header{
+    background: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.header-text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
+    text-align: center;
+}
