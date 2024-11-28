@@ -3,6 +3,8 @@ header{
     padding: 20px;
     display: flex;
     align-items: center;
+    border-radius: 7px;
+    justify-content: center;
 }
 .logo{
     margin-left: 20px;
@@ -14,7 +16,40 @@ header{
 .header-text{
     color: white;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+    font-weight: bold;
     flex: 1;
-    text-align: center;
+   margin-left: 610px;
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+.shadow{
+    width: 750px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: auto;
+    box-shadow: 0 0 10px black;
+}
+.section1_text{
+    width: 500px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-shadow: 0 0 50px black;
+}
+
+.bold {
+        font-weight: bold;
+        text-decoration: underline;
+}
+.image-text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
 }
