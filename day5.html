@@ -1,77 +1,99 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <p id="demo"></pid></p>
-    <script>
-        // const x=5;
-        var y=6;
-        // let sum=x+y;
-        // let multiply = x*20;
-        // document.getElementById("demo").innerHTML="Total"+sum;
-        // document.getElementById("demo").innerHTML="Multiply"+multiply;
-        y+=5
-        document.getElementById("demo").innerHTML="Assignment"+y;
-        let a= "abc";
-        let l= "abc";
-        let s= "abc";
-        let b="bcd";
-        let c=a+" "+b;
-        document.getElementById("demo").innerHTML="Assignment ="+c;
-        let x=5;
-        document.getElementById("demo").innerHTML=(x===5);
-        var q=3;
-        // document.getElementById("demo").innerHTML=(y<=10&&y>=1)+"<br>"+(q>10&&q<1);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q); document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
-        document.getElementById("demo").innerHTML=!(y===q)+"<br>"+!(y>q);
+  <p id="demo"></p>
+  <script>
+    // Corrected variable declarations
+    let x = 5;
+    let y = 6;
+    let sum = x + y;
+    let multiply = x * 20;
 
-        
+    // Corrected innerHTML assignments
+    document.getElementById("demo").innerHTML = "Total: " + sum;
+    document.getElementById("demo").innerHTML = "Multiply: " + multiply;
+
+    // Assignment operator
+    y += 5;
+    document.getElementById("demo").innerHTML = "Assignment: " + y;
+
+    // String concatenation
+    let a = "abc";
+    let b = "bcd";
+    let c = a + " " + b;
+    document.getElementById("demo").innerHTML = "Assignment: " + c;
+
+    // Conditional statements
+    let x1 = 5;
+    document.getElementById("demo").innerHTML = (x1 === 5);
+
+    // Logical operators
+    let q = 3;
+    document.getElementById("demo").innerHTML = (y <= 10 && y >= 1) + "<br>" + (q > 10 && q < 1);
+
+    // Loops
+    for (let i = 0; i < 20; i++) {
+      if (i % 2 === 0) {
+        document.getElementById("demo").innerHTML += i + " ";
+      }
+    }
+
+    // Functions
+    function checkEven(num1) {
+      if (num1 % 2 === 0) {
+        return "even";
+      } else {
+        return "odd";
+      }
+    }
+    document.getElementById("demo").innerHTML = checkEven(2);
+    // object 
+
+    let newobject={ name:"pawan",age:"26"}
+    let obj1=newobject.name;
+    document.getElementById("demo").innerHTML =obj1;
+    console.log(newobject.name)
+    
+    //array
+    let array_name=[1,2,3,4]
+    document.getElementById("demo").innerHTML =array_name[1];
+    console.log(array_name[2]);
+    array_name.push(10);
+    console.log(array_name);
+    array_name.pop();
+    console.log(array_name);
+    console.log(array_name.join("* "))
+    document.getElementById("demo").innerHTML =array_name.join("* ");
+
+    // else if demo
+
+    function checkday()
+    {
+        const time= new Date().getHours();
+        let greet;
+        if(time<10){
+            greet="Morning"
+        }
+        else if(time<13){
+            greet="Afternoon";
+
+        }
+        else {
+            greet="Not afternoom .. "
+        }
+        document.getElementById("demo").innerHTML =greet;
+    }
+  checkday();
 
 
-    </script>
+  </script>
 </body>
 </html>
