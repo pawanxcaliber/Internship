@@ -228,3 +228,34 @@ header{
     background-color: rgb(162, 169, 247);
     border-radius: 10px;
 }
+.section8-container {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgb(240, 240, 240); /* Light background for contrast */
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.section8-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows logos to wrap to the next line on smaller screens */
+}
+
+.logo-card {
+    width: 150px; /* Consistent size for logo cards */
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo-image {
+    max-width: 80%; /* Keeps logos responsive */
+    max-height: 80%;
+    object-fit: contain; /* Ensures logos maintain their aspect ratio */
+}
+
