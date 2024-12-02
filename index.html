@@ -7,25 +7,20 @@
     <style>
         /* Section 9 Styling */
         .section9-container {
-            padding: 40px 20px;
-            text-align: center;
+            padding: 20px;
             background-color: #007BFF;
             color: #fff;
             border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             margin-top: 50px;
-        }
-
-        .section9-title {
-            font-size: 2rem;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            margin-bottom: 20px;
         }
 
         .social-icons {
             display: flex;
-            justify-content: center;
             gap: 15px;
-            margin-bottom: 30px;
+            margin-left: 50px;
         }
 
         .social-icons a {
@@ -49,7 +44,9 @@
         }
 
         .subscribe-form {
-            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            margin-right: 50px; /* Same margin as social icons from the left */
         }
 
         .subscribe-form input[type="email"] {
@@ -82,13 +79,14 @@
 <body>
     <!-- Section 9 -->
     <div class="section9-container">
-        <h2 class="section9-title">Connect with Us</h2>
+        <!-- Social Media Icons -->
         <div class="social-icons">
             <a href="https://facebook.com" target="_blank">F</a>
             <a href="https://twitter.com" target="_blank">T</a>
             <a href="https://instagram.com" target="_blank">I</a>
             <a href="https://linkedin.com" target="_blank">L</a>
         </div>
+        <!-- Subscribe Form -->
         <div class="subscribe-form">
             <input type="email" placeholder="Enter your email" required>
             <button type="submit">Subscribe</button>
