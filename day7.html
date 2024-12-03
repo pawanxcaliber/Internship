@@ -2,31 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <p id="demo"> please visit Mood</p> </p>
-   <script>
-    let str= "Hello world";
-    //  text replace    console.log(str);
-    console.log(str.search("world"));
-    let text = document.getElementById("demo").innerHTML;
-    document.getElementById("demo").innerHTML=text.replace("Mood","Acce");
-//  Exception handling
-    let a=10;
-    let b=0;
-
-    try{
-        c=a/b;
-    }
-    catch(error){
-         console.log(error);
-    };
-    
-
-    
-    
-   </script>
+    <p id=demo> abc</p>
+    <script>
+        let array =[10,20];
+        array.map((items) => console.log(items));
+        let [a,b]=array;
+        console.log(a,b);
+        let number={num1:'one',age:22,job:'two'};
+        const{num1,age,job,somt=5}=number;
+        console.log(num1,age,job,somt);
+        const array1=[1,2,3];
+        const array2=[2,2,3,];
+        const numbers=[... array1,...array2];
+        console.log(numbers);
+        
+    </script>
 </body>
 </html>
